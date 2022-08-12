@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Dosis:wght@300&family=Roboto+Slab&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(to bottom left, #ebcac0 0%, #ff6699 100%);;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+
+header{
+    max-width: 100%;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.logotipo{
+    height: 70%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-icon{
+    height: 100%;
+}
+
+.business-name{
+    color: #1a1f58ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+
+}
+
+.navbar{
+    height: 100%;
+    width: 50%;
+}
+
+.menubar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menubar-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubar-content:hover{
+    background-color: #6ea9fc60;
+    transition:0.5s;
+}
+
+.list-text{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color:#4e2f31;
+    padding: 25px 0;
+    width: 100%;
+    
+    
+}   
+
+/*SECTION ONE*/
+
+.first-section{
+    height: 90vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.description{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.amount{
+    font-family: 'Akshar', sans-serif;
+    color: #5c685d;
+}
+
+.slogan{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color:  #2e2c2a;
+    margin-top: 20px;
+}
+
+.details{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    color:  #1d1c1a;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(235, 229, 229);
+    transition: 0.4s;
+}
+
+.btn-content{
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 70%;
+    padding: 11px 0;
+}
+
+.vector{
+    width: 45%;
+}
+
+.girl {
+    width: 100%;
+}
+
+
+/*SECTION TWO*/
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to left, #d6cbd3 0%, #beb2bb 100%);
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 100%;
+
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    color: #252423;
+    font-size: 22px;
+}
+
+.join-content{
+    font-size:17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    text-align:center;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.join-btns{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 5px;
+}
+
+.start-know{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 12px 48px;
+    background-color: #eca1a6;
+    color: #22211f;
+    border-radius: 4px;
+    font-family:'Titillium Web', sans-serif;
+}
+
+.start-know:hover{
+    background-color: rgb(235, 229, 229);
+    transition: 0.5s;
+}
+
+
+/*FOOTER*/
+
+footer{
+    padding: 60px 20px 35px 20px;
+    background-color: #ada397;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.footer-links{
+    display: flex;
+    width: 50%;
+    gap: 30px;
+}
+
+
+.link{
+    text-align: center;
+    text-decoration: underline;
+    color: #373d38;
+    font-size: 13px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-title{
+    font-family: 'Ubuntu', sans-serif;
+    color: #242724;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: #373d38;
+
+}
+
+.typehere{
+    display: flex;
+    gap: 5px;
+}
+
+
+.email {
+    width: 10rem;
+    border-radius: 3px;
+    box-shadow: 0 1 1 0;
+    outline: none;
+    opacity: 0.7;
+    padding: 12px 5px;
+    font-size: 11px;
+
+}
+
+.submit{
+    width: 3.7rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: all 0.5s ease;
+}
+
+.submit:hover{
+    background-color:rgba(128, 128, 128, 0.658);
+}
+
+
